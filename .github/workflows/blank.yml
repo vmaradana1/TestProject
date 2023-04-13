@@ -39,8 +39,8 @@ jobs:
       - name: List of Current Directory Contents
         run: |
           echo ls -al
-          echo ps
+     # echo ps
       
       # Adding line to execute script.sh
       - name: execute script
-        run:  chmod 777 ./script.sh
+        run:  chmod +x ./script.sh

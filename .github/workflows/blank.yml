@@ -38,7 +38,8 @@ jobs:
       # List current directory contents
       - name: List of Current Directory Contents
         run: |
-          echo ls -al
+          echo pwd
+     # echo ls -al
      # echo ps
       
       # Adding line to execute script.sh
